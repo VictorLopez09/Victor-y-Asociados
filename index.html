@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Mantenimiento - SMIFE</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="logo">SMIFE</div>
+
+            <!-- Menú de Navegación -->
+            <nav aria-label="Menú principal">
+                <!-- Botón de Menú Hamburguesa (solo visible en móviles) -->
+                <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+
+                <!-- Lista de Enlaces -->
+                <ul class="nav-links">
+                    <li><a href="#problema">Planteamiento</a></li>
+                    <li><a href="#objetivos">Objetivos</a></li>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="contacto.html" class="btn">Contacto</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="content">
+            <div class="text">
+                <h1>Sistema de Mantenimiento de Infraestructura Física Educativa</h1>
+                <p>"Transformando el mantenimiento de las infraestructura física con tecnología inteligente"</p>
+                <a href="producto.html" class="btn" >Más información</a>
+            </div>
+            <div class="image-container">
+                <img src="img/1.jpg" alt="Imagen principal">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Clientes -->
+    <section class="clients">
+        <div class="content">
+            <div class="client-card">
+                <img src="/img/unach.png" alt="UNACH" class="client-logo">
+                <p>UNACH</p>
+            </div>
+            <div class="client-card">
+                <img src="/img/4.png" alt="Victor y Asociados" class="client-logo">
+                <p>Victor y Asociados</p>
+            </div>
+            <div class="client-card">
+                <img src="/img/fastapi.png" alt="FastAPI" class="client-logo">
+                <p>FastAPI</p>
+            </div>
+            <div class="client-card">
+                <img src="/img/2.png" alt="React" class="client-logo">
+                <p>React</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Planteamiento del Problema -->
+    <section id="problema" class="problema">
+        <div class="content">
+            <h2>Planteamiento del Problema</h2>
+            <p>La gestión del mantenimiento de la infraestructura física educativa en la Facultad de Sistemas
+                Computacionales y Posgrado de la Universidad Autónoma de Chiapas se realiza de manera manual utilizando
+                principalmente hojas de cálculo. Este enfoque tradicional presenta limitaciones significativas, como la
+                falta de eficiencia en la asignación de recursos, retrasos en la ejecución de tareas, dificultad para
+                priorizar actividades de mantenimiento y la ausencia de un seguimiento adecuado. Estas deficiencias
+                afectan tanto el ámbito administrativo como el educativo, generando un impacto negativo en la calidad de
+                los servicios ofrecidos y en el desempeño operativo de la institución.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de Objetivos Generales -->
+    <section id="objetivos" class="objetivos">
+        <div class="content">
+            <h2>Objetivo general</h2>
+            <p>Desarrollar un sistema de información para la gestión del mantenimiento de la infraestructura física
+                educativa en la Facultad de Sistemas Computacionales y Posgrado de la Universidad Autónoma de Chiapas.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de Misión y Visión -->
+    <section class="linea">
+        <div class="content">
+            <div class="feature-cards">
+                <div class="card animated-card" onclick="mostrarInfo('optimizacion')">
+                    <h3>Misión</h3>
+                </div>
+                <div class="card animated-card" onclick="mostrarInfo('automatizacion')">
+                    <h3>Visión</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca-de" class="acerca-de">
+        <div class="content">
+            <h2>Acerca de Nosotros</h2>
+            <p>Victor y Asociados desarrolla un sistema para optimizar el mantenimiento de
+                infraestructuras educativas, mejorando eficiencia y prolongando la vida útil de las instalaciones.
+                El sistema gestiona mantenimiento, inventarios y órdenes de trabajo, adaptándose a cada institución.
+                Liderado por Juan Pérez García y María López Hernández.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="content">
+            <h2>Servicios</h2>
+            <ul class="servicios-lista">
+                <li>Analizar el proceso actual de mantenimiento de la infraestructura física educativa.</li>
+                <li>Identificar los requerimientos funcionales y no funcionales del sistema.</li>
+                <li>Definir los procesos y servicios de mantenimiento necesarios para la infraestructura física
+                    educativa.</li>
+                <li>Diseñar un sistema de información para la gestión y mantenimiento de la infraestructura
+                    físico-educativa.</li>
+                <li>Implementar mecanismos de seguridad para garantizar la confiabilidad del sistema.</li>
+                <li>Realizar pruebas del sistema para evaluar su funcionalidad y eficacia.</li>
+                <li>Desplegar el sistema en un entorno real dentro de la Facultad de Sistemas Computacionales y Posgrado
+                    de la Universidad Autónoma de Chiapas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Valores -->
+    <section id="valores" class="valores">
+        <div class="content">
+            <h2>Nuestros Valores</h2>
+            <div class="feature-cards scroll-x">
+                <!-- Tarjeta de Innovación -->
+                <div class="card animated-card">
+                    <h3>Innovación</h3>
+                    <p>Buscamos constantemente nuevas soluciones y mejoras.</p>
+                </div>
+
+                <!-- Tarjeta de Compromiso con la educación -->
+                <div class="card animated-card">
+                    <h3>Compromiso con la educación</h3>
+                    <p>Nos comprometemos a apoyar el desarrollo educativo.</p>
+                </div>
+
+                <!-- Tarjeta de Transparencia -->
+                <div class="card animated-card">
+                    <h3>Transparencia</h3>
+                    <p>Actuamos con honestidad y claridad en todas nuestras operaciones.</p>
+                </div>
+
+                <!-- Tarjeta de Eficiencia -->
+                <div class="card animated-card">
+                    <h3>Eficiencia</h3>
+                    <p>Optimizamos nuestros procesos para ofrecer resultados rápidos.</p>
+                </div>
+
+                <!-- Tarjeta de Sostenibilidad -->
+                <div class="card animated-card">
+                    <h3>Sostenibilidad</h3>
+                    <p>Promovemos prácticas responsables con el medio ambiente.</p>
+                </div>
+
+                <!-- Tarjeta de Trabajo en equipo -->
+                <div class="card animated-card">
+                    <h3>Trabajo en equipo</h3>
+                    <p>Colaboramos estrechamente para alcanzar objetivos comunes.</p>
+                </div>
+
+                <!-- Agrega más tarjetas si es necesario -->
+                <div class="card animated-card">
+                    <h3>Calidad</h3>
+                    <p>Nos esforzamos por ofrecer servicios de la más alta calidad.</p>
+                </div>
+
+                <div class="card animated-card">
+                    <h3>Responsabilidad</h3>
+                    <p>Asumimos la responsabilidad de nuestras acciones y decisiones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="testimonios">
+        <div class="content">
+            <h2>Testimonios</h2>
+            <blockquote>
+                <p>"El sistema ha mejorado significativamente la eficiencia del mantenimiento en nuestra institución."
+                </p>
+                <footer>- Blvd. Belisario Domínguez Km. 1081 Colina Universitaria s/n, Col. Terán, Tuxtla Gtz, Chiapas;
+                    México</footer>
+            </blockquote>
+        </div>
+    </section>
+
+
+
+
+    <!-- Modal -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="content">
+            <p>&copy; 2025 Victor y Asociados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
